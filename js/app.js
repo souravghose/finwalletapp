@@ -11,4 +11,11 @@ var splide = new Splide( '.splide', {
 
 
   //pwa
-  navigator.serviceWorker && navigator.serviceWorker.register('js/sw.js').then(function(registration) {  console.log('Excellent, registered with scope: ', registration.scope);});
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("js/sw.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+    })
+  }

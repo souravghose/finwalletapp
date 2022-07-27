@@ -1,0 +1,8 @@
+{
+    "name": "Flybankingapp",
+    "short_name": "Flybankingapp",
+    "start_url": "index.html",
+    "display": "banking",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary"}

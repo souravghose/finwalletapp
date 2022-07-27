@@ -224,7 +224,7 @@ header nav {
     width: 98%;
 }
 .single-cards{
-    width: 95%;
+    width: 90%;
     border-radius: 12px;
     padding: 10px 20px;
     margin-right: 0px;
@@ -276,7 +276,7 @@ header nav {
     justify-content: start!important;
 }
 .splide__slide{
-    width:calc(((100% - 5px) / 1) - 7px)!important;
+    width:calc(((100% + 15px) / 1) - 20px)!important;
     margin-right: -15px!important;
     
 }

@@ -233,11 +233,15 @@ header nav {
     background: #6236FF;
 }
 .cardTwo{
-    background:rgb(0, 0, 0);
+    background:#FF6A14;
   
 }
 .cardThree{
-    background-color: #ffb400;
+    background-color: rgba(21, 14, 33, 0.988);
+}
+
+.cardFourth{
+    background-color: rgb(13, 137, 7);
 }
 #cards p.heading{
     font-size: 12px;
@@ -285,4 +289,23 @@ header nav {
 }
 .splide__pagination{
     display: none;
+}
+.card-logo{
+    bottom: 6%;
+    right: 14%;
+    font-size: 35px;
+}
+.logo-visa{
+    color:#1434CB;
+    
+}
+.logo-mc{
+    color: white;
+    
+}
+.logo-amex{
+color: #fff;
+}
+.logo-discover{
+    color:#000;
 }

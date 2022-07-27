@@ -2,7 +2,7 @@
     "name": "Flybankingapp",
     "short_name": "Flybankingapp",
     "start_url": "/",
-    "display": "standalon",
+    "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
     "orientation": "portrait-primary",

@@ -13,7 +13,7 @@ const assets = [
   "/assets/logo/appleLogo.png",
 
   
-]
+];
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(

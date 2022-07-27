@@ -9,7 +9,8 @@
     "icons": [
         {
           "src": "assets/icon.jpg",
-          "type": "image/jpg", "sizes": "980x980"
+          "type": "image/jpg", "sizes": "980x980",
+          "purpose": "maskable"
         }
     ]
 }

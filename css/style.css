@@ -1,0 +1,288 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* unique styles */
+
+:root {
+    --custom-bg-primary: #4732be;
+    --text-color-white: #fff;
+    --bg-color-white: #fff;
+    --text-color-gray: rgb(161, 160, 160);
+    --text-color-dark: rgb(0, 0, 0);
+    --bg-red: rgb(255, 17, 17);
+    --color-dark-pink: rgb(255, 52, 86);
+    --color-success: rgb(34, 182, 47);
+}
+
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.text-gray {
+    color: var(--text-color-gray)!important;
+}
+
+body {
+    height: 1600px;
+    overflow-x: hidden;
+    background: rgb(221, 219, 219);
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: var(--custom-bg-primary);
+}
+
+header nav {
+    background: var(--custom-bg-primary);
+}
+
+.custom-bars:before {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight:600;
+}
+
+.custom-notification {
+    margin-top: 5px;
+    color: var(--text-color-white);
+    font-size: 23px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bg-red {
+    background-color: var(--bg-red);
+}
+
+
+/* wallet card start */
+
+.heading {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.balance {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#walletCard {
+    background: var(--bg-color-white);
+    color: var(--text-color-dark);
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: -25%;
+    background-position: fixed;
+    width: 93%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 9%);
+}
+
+.addBtn {
+    background: rgb(197, 219, 255);
+    text-align: center;
+    color: var(--custom-bg-primary);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
+}
+
+.walletBox {
+    margin-top: 25px;
+    border-radius: 8px;
+    width: 70px;
+    height: 60px;
+    padding: 10px 7px;
+    font-size: 22px;
+    color: var(--text-color-white);
+    text-align: center;
+    cursor: pointer;
+}
+
+.wallet-paragraph {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.withdraw {
+    background: rgb(255, 52, 86);
+}
+
+.send {
+    background: rgb(85, 70, 214);
+}
+
+.exchange {
+    background: #ffb400;
+}
+
+.cards {
+    background: rgb(34, 182, 47);
+}
+
+
+/* exchange starts */
+
+#exchange {
+    width: 98%;
+}
+
+.infoBox {
+    background: var(--bg-color-white);
+    color: var(--text-color-dark);
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-position: fixed;
+    margin-top: 10%;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 9%);
+}
+
+
+/* transactions */
+
+#transactions {
+    width: 98%;
+}
+
+.bigHeadings {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.link {
+    color: rgb(148, 138, 240);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -18px;
+    display: block;
+}
+
+.signleTransactions {
+    background: var(--bg-color-white);
+    color: var(--text-color-dark);
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-position: fixed;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 9%);
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.transation-purpose {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: -3px!important;
+}
+
+.transaction-amount {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.expenses {
+    color: var(--color-dark-pink);
+}
+
+.custom-navbar-toggler {
+    display: flex!important;
+    margin-bottom: -0%!important;
+}
+
+/* cards start */
+#cards{
+    width: 98%;
+}
+.single-cards{
+    width: 90%;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 0px;
+}
+.cardOne{
+    background: #6236FF;
+}
+.cardTwo{
+    background:rgb(0, 0, 0);
+  
+}
+.cardThree{
+    background-color: #ffb400;
+}
+#cards p.heading{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:rgb(159, 139, 247);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+#cards p.balance{
+    font-size: 25px;
+}
+.cardNumber{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.custom-circle{
+    font-size: 5px;
+    margin-right: 4px;
+}
+.sub-heading{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--text-color-white);
+}
+.expiry-date{
+    margin: 0 2px;
+}
+.custom-ellipsis{
+    color: var(--text-color-white);
+    font-size: 28px;}
+.splide__list{
+    justify-content: start!important;
+}
+.splide__slide{
+    width:calc(((100% - 20px) / 1) - 10px)!important;
+    margin-right: -15px!important;
+    
+}
+.splide__arrow{
+    display: none;
+}
+.splide__pagination{
+    display: none;
+}

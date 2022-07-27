@@ -1,4 +1,4 @@
-const flybankingApp = "flybankingapp v1"
+const flybankingApp = "flybankingapp v1";
 const assets = [
   "/",
   "/index.html",

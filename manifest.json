@@ -8,6 +8,11 @@
     "theme_color": "#4732be",
     "orientation": "portrait-primary",
     "icons": [
+      {
+        "src": "assets/icon512.jpg",
+        "type": "image/jpg", "sizes": "512x512",
+        "purpose": "maskable"
+      },
         {
           "src": "assets/icon.jpg",
           "type": "image/jpg", "sizes": "980x980",

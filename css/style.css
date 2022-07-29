@@ -363,6 +363,8 @@ margin-right: 14px!important;
     border-radius: 9px;
     width: 45%!important;
     margin-right: 12px!important;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 9%);
+
     
 }
 
@@ -416,6 +418,7 @@ margin-right: 14px!important;
     background-color: var(--bg-color-white);
     padding: 15px 25px;
     border-radius: 9px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 9%);
 }
 .goal-name{
     color: #000;
@@ -438,7 +441,34 @@ margin-right: 14px!important;
 .progress-bar{
     font-family: 'Poppins', sans-serif!important;
 }
-
+/* bottom fixed nav */
+.custom-bottom-nav{
+    width: 100%;
+    margin-left: 0!important;
+    background-color: aliceblue;
+}
+.nav-box{
+    border-top: 1px solid transparent;
+    margin: 0;
+    padding: 15px 8px;
+    background: aliceblue;
+    width: 25%!important;
+    margin-right: 5px;
+}
+.nav-box:hover{
+    border-top: 2px solid var(--custom-bg-primary);
+}
+.bottom-navIcon i{
+    font-size: 22px;
+}
+.nav-box p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #27173E;
+    margin-top: 3px!important;
+    text-align: center;
+}
 /* footer start */
 footer{
     width: 100%;

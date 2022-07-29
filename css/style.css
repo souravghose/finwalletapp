@@ -27,6 +27,8 @@ body {
     height: 1600px;
     overflow-x: hidden;
     background: rgb(245, 240, 240);
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -44,7 +46,11 @@ header nav {
     font-size: 28px;
     font-weight:600;
 }
-
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
 .custom-notification {
     margin-top: 5px;
     color: var(--text-color-white);
@@ -431,4 +437,29 @@ margin-right: 14px!important;
 }
 .progress-bar{
     font-family: 'Poppins', sans-serif!important;
+}
+
+/* footer start */
+footer{
+    width: 100%;
+    background-color: #fff;
+    padding: 16px 10px;
+}
+.footer-heading{
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.sub-footer-paragraph{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    color: var(--text-color-gray);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
 }
